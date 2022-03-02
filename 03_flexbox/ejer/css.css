@@ -1,0 +1,26 @@
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 98%;
+    height: 50vh;
+    margin: auto;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-flow: row nowrap;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.centrado {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid;
+    box-sizing: border-box;
+
+}

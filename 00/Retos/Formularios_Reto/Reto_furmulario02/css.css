@@ -1,0 +1,36 @@
+section {
+    display: block;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+}
+
+hr {
+    border: 0.01px solid #80808041;
+}
+
+.letra {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-small;
+}
+
+label {
+    float: left;
+}
+
+.texto, .texto-a{
+    float: left;
+}
+
+.texto > p, .texto-a > p {
+ margin-top: 3px;
+ color: gray;
+}
+
+#complemento {
+    clear: both;
+}
+
+h4, .juntos {
+    display: inline;
+}

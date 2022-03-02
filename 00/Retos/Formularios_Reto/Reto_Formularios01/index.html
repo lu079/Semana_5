@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css.css">
+    <title>Lista seleccionable abierta</title>
+</head>
+<body>
+    <div>
+        
+         <form name="formularrio_01" method="post" action="/send.php" >
+            <h2>Personal information</h2>
+            <p class="grosor">*First name:</p>
+             <input class="fila" type="text" name="first_name" autocomplete="off" placeholder="">
+             <br> <br>
+             <p class="nada">Middle name:</p>
+             <input class="fil" type="text" name="middle_name" autocomplete="off" placeholder="">
+             <br><br>
+             <p class="grosor">*Last name:</p>
+             <input class="fila" type="text" name="last_name" autocomplete="off" placeholder="">
+             
+             </form>
+
+             <h2>Address</h2>
+             <p class="nada">Addess:</p>
+             <input class="fila" type="text" name="address" autocomplete="off" placeholder="">
+             <br><br>
+            <p class="nada">City or town:</p>
+             <input class="fila" type="text" name="city_of_town" autocomplete="off" placeholder="">
+             <br><br>
+            <p class="nada">State:</p>
+             <select class="fila" name="state">
+                 <option value="1">State of Tasmania</option>
+                 <option value="2">State of Victoria</option>
+                 <option value="3">State of Queensland</option>
+                 <option value="4">State of Western Australia</option>
+                 <option value="5">State of South Australia</option>
+             </select>
+             <br><br>
+            <p class="grosor">*Zip code:</p>
+             <input class="fila" type="text" name="zip_code" autocomplete="off" placeholder="">
+        
+            </form>
+           
+
+
+    </div>
+</body>
+</html>

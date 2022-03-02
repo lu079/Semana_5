@@ -1,0 +1,36 @@
+
+ /* .element {
+     background: var (--color-fondo, blue);
+ } */
+ /* tema personalizado */
+ /* @import url(../../library/index.css); */
+/* estilos locales */
+ /* @import url('local_vars.css');
+@import url('botton.css'); */
+
+ /* .box {
+    width: var(--tamaño, 300px);
+    height: 200px;
+    margin-bottom: 10px;
+    /* no se pueden usar dos variables en el mismo custom */
+    /* background-color: var(--color-primario, skyblue);
+ }
+
+ .circle {
+    width: var(--tamaño, 200px);
+   height: var(--tamaño);
+   border-radius: 50%;
+   background-color: var(--color-secundario);
+} */ 
+
+.parent {
+--fondo-color: black;
+
+   color: white;
+        }
+        .first {
+            --fondo-color: purple;
+        }
+.child {
+   background: var(--fondo-color, blue);
+}

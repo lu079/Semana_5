@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css.css" />
+    <title>Lista selecionable abierta</title>
+  </head>
+  <body>
+    <section>
+      <h3>Simple Event Registration</h3>
+      <h5 class="letra">Fill aut the form to register to our event</h5>
+      <hr />
+      <br />
+
+      <form name="registration" action="/sende.php" method="post">
+        <div class="forma">
+          <label for="">Name</label>
+          <div class="texto">
+            <input type="text" name="first" autocomplete="off" />
+            <p>Firstname</p>
+          </div>
+        </div>
+
+        <div class="texto-a">
+          <input type="text" name="last" autocomplete="off" />
+          <p>Lastname</p>
+        </div>
+      </form>
+
+      <form
+        id="complemento"
+        name="complemento"
+        action="/send.php"
+        method="post"
+      >
+        <br />
+        <h4 class="juntos">Title</h4>
+        <input type="text" name="title" autocomplete="off" />
+        <br /><br />
+
+        <h4 class="juntos">Company</h4>
+        <input type="text" name="company" autocomplete="off" />
+        <br /><br />
+
+        <h4 class="juntos">E-mail</h4>
+        <input
+          type="email"
+          name="correo"
+          placeholder="ex: myname@example.com"
+        />
+        <br /><br />
+
+        <h4>Phone Number</h4>
+        <input type="tel" name="telefono" placeholder="Phone Number" />
+        <br /><br />
+
+        <p>Are you an existing customer?</p>
+        <input type="radio" name="yes" value="Y" /> Yes
+        <input type="radio" name="No" value="N" /> No <br /><br /><br />
+
+        <button>Register</button>
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+body {
+  background-color: darkslategray;
+  padding-top: 10%;
+}
+
+/* Posicionamiento absoluto y relativo */
+#caja_1 {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: skyblue;
+  /* Si el padre tiene parametros, el absolut se define a traves de él, no sobre el body*/
+  position: relative;
+}
+
+#caja_2,
+#caja_3,
+#caja_4 {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  /* absolut (contenedores) y relative (padres): Siempre se deben agragar posiciones individuales o no se verán los cambios */
+}
+
+#caja_2 {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+#caja_3 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#caja_4 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.verde {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: green;
+}
+#gch {
+  top: 35%;
+  right: 35%;
+}
+
+/* .morado {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: violet;
+  color: white;
+  border-radius: 50%;
+}
+
+#arriba {
+    top: -68px;
+    left: 20%;
+}
+
+#derecha {
+    right: 50px;
+    bottom: 40px;
+}
+
+#izq {
+  left: 100px;
+  bottom: 90px;
+} 
+
+#abajo {
+  left: 25px;
+  bottom: 68px;
+} */
+
+
+/* punto de referencia: absolute */
+.morado {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: violet;
+  color: white;
+  border-radius: 50%;
+}
+
+.morado:nth-child(1) {
+  top: -50px;
+  left: 25px;
+}
+
+.morado:nth-child(2) {
+  right: -50px;
+  bottom: 30px;
+}
+
+.morado:nth-child(3) {
+  left: 30px;
+  bottom: -50px;
+}
+
+.morado:nth-child(4) {
+  top: 30px;
+  left: -50px;
+}
+
+/* Posicionamiento fijo: la página se mueve pero el elemento no */
+
+.rectangulo {
+  width: 100px;
+  height: 40px;
+  background-color: goldenrod;
+  top: 40px;
+  right: 50px;
+  z-index: 7;
+}
+/* Se mueve junto con la página */
+.fijo {
+  position: fixed;
+}
+
+/* Se mantine en us lugar hasta que la página sube, luego comienza a moverse con la página */
+.pegajoso {
+  position: sticky;
+}

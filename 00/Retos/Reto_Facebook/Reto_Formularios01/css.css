@@ -1,0 +1,22 @@
+
+div {
+    display: block;
+    width: 500px;
+    height: 400px;
+    margin: auto;    
+}
+h2 {
+    color: #3c3cc9;
+}
+
+.grosor {
+    font-weight: bold;
+}
+
+.grosor, .fila {
+    display: inline;
+}
+
+.nada, .fil {
+    display: inline;
+}

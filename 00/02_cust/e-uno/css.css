@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+#contenedor {
+    margin: auto;
+    margin-top: 100px;
+    background-color: skyblue;
+    width: 70%;
+    height: 600px;
+    position: relative;
+}
+
+#arriba, #centro, #abajo{
+    background-color: goldenrod;
+    position: absolute;
+    width: 90%; 
+   left: 5%;
+}
+
+#arriba {
+   height: 150px; 
+   top: 5%;
+}
+
+#centro {
+   height: 100px; 
+   top: 5%;
+}
+
+#abajo {
+   height: 300px; 
+   bottom: 5%;
+}
+
+
+
+.a {
+    width: 900px;
+    height: 50px;
+
+}

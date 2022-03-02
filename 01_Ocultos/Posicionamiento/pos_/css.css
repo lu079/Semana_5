@@ -1,0 +1,58 @@
+.bg-red {
+    background-color: red;
+  }
+  .bg-blue {
+    background-color: blue;
+  }
+  
+
+.column {
+    width: 50%;
+    top: 0px;
+}
+
+.column:nth-child(1) {
+  float: left;
+  clear: both;
+}
+
+.column:nth-child(2) {
+  float: right;
+}
+
+
+
+/* br{
+    clear: both;
+} */
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    white-space: rowarp;
+}
+.column {
+    display: inline-block;
+    width: 50%;
+    white-space: normal;
+}
+br {
+    clear: both;
+} */
+
+/* .fijo {
+    width: 100px;
+    height: 40px;
+    background: pink;
+    position: fixed;
+}
+.pegajoso {
+    width: 100px;
+    height: 40px;
+    background: greenyellow;
+    position: sticky;
+} */
+

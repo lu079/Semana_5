@@ -1,0 +1,23 @@
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(71, 102, 40);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    /* DIRECCIÓN Y DESVORDAMIENTO */
+    flex-flow: row wrap;
+    /* MULTILINEA */
+    align-content: space-around;
+}
+
+.cont {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
